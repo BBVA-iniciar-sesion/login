@@ -1,0 +1,105 @@
+
+@keyframes a0_t {
+    0% {
+      transform: translate(2211.803955px, 2228px);
+      animation-timing-function: cubic-bezier(.330818, .08078, .358984, 1);
+    }
+    100% {
+      transform: translate(2354px, 2228px);
+    }
+  }
+  
+  @keyframes deg-blue_t {
+    0% {
+      transform: scale(0, 1.329535) translateY(4.79167px);
+      animation-timing-function: cubic-bezier(.258579, .013099, .324203, .937594);
+    }
+    54.5454% {
+      transform: scale(12.072597, 12.75502) translateY(4.79167px);
+    }
+    100% {
+      transform: scale(12.072597, 12.75502) translateY(4.79167px);
+    }
+  }
+  
+  @keyframes deg-blue_o {
+    0% {
+      opacity: 0;
+    }
+    40.9091% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes a1_t {
+    0% {
+      transform: translate(1984px, 2573px);
+    }
+    13.6363% {
+      transform: translate(1984px, 2573px);
+      animation-timing-function: cubic-bezier(.25, 0, .5, 1);
+    }
+    100% {
+      transform: translate(1817.607944px, 2573.119965px);
+    }
+  }
+  
+  @keyframes deg-turquoise_t {
+    0% {
+      transform: scale(0, .711586) translate(-.045175px, 4.635216px);
+      animation-timing-function: cubic-bezier(.42, 0, .58, 1);
+    }
+    13.6363% {
+      transform: scale(0, .711586) translate(-.045175px, 4.635216px);
+      animation-timing-function: cubic-bezier(.42, 0, .58, 1);
+    }
+    63.6363% {
+      transform: scale(12.006882, 12) translate(-.045175px, 4.635216px);
+    }
+    100% {
+      transform: scale(12.006882, 12) translate(-.045175px, 4.635216px);
+    }
+  }
+  
+  @keyframes deg-turquoise_o {
+    0% {
+      opacity: 0;
+    }
+    13.6364% {
+      opacity: 0;
+    }
+    54.5455% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes a2_t {
+    0% {
+      transform: translate(2274.756px, 2489.880117px);
+      animation-timing-function: cubic-bezier(.36, 0, .36, 1);
+    }
+    100% {
+      transform: translate(2414.756px, 2489.880117px);
+    }
+  }
+  
+  @keyframes line-blue_t {
+    0% {
+      transform: scale(0);
+    }
+}
+
+#body {
+  opacity: 1;
+ 
+}
+
+body .next-page {
+  opacity: 0;
+}

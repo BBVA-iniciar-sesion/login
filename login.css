@@ -1,0 +1,181 @@
+body {
+    background-color: rgba(5,11,15,1);
+    font-family: 'BentonSans-Bold', Arial, sans-serif;
+    overflow: hidden;
+    line-height: normal;
+    overflow: hidden;
+    
+  }
+  
+   .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    min-height: 3.5rem;
+  }
+  
+  .back-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+    position:absolute;
+    top: 1.7%;
+    left: 41%;
+  }
+  
+  .help-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .back-button-img{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+  }
+  
+  .background-login{
+    background-color: transparent;
+    height: 667px;
+    position: relative;
+    margin: 0;
+  }
+  
+  .help-button-img{
+    position: absolute;
+    top: 10px;
+    right: 22px;
+  }
+  
+  .left-top{
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-left: 5px;
+  }
+  
+  .right-top{
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 5px;
+  }
+  
+  .all-login{
+    background-color: transparent;
+    height: 200px;
+    position: absolute;
+    top: 26%;
+    width: 100%;
+   
+  }
+  
+  .username{
+    background-color: rgba(19,35,48,255);
+    position: absolute;
+    top: 40%;
+    width: 89%;
+    line-height: 48px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 0px 0px 0px 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: .9375rem;
+    outline: none;
+  }
+  
+  .password{
+    background-color: rgba(19,35,48,255);
+    position: absolute;
+    top: 72%;
+    width: 89%;
+    line-height: 48px;
+    padding: 0px 0px 0px 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: .9375rem;
+    outline: none;
+  }
+  
+  .show-password{
+    background-color: rgba(19,35,48,255);
+    background-image: url("password-eye.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 72%;
+    left: 85%;
+    width: 48px;
+    height: 48px;
+    border: none;
+  }
+  
+  ::after .show-password{
+    background-image: url("password-eye-close.png");
+  }
+  
+  .recuperation{
+    font-weight: bold;
+    position: absolute;
+    color: #5bbef5;
+    top: 60%;
+    left: 31%;
+  }
+  
+  .buttons{
+    background-color: aliceblue;
+  }
+  
+  .log-in{
+    background-color: #068a8a;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    height: 48px;
+    width: 159.98px;
+    border-color: #068a8a;
+    border: none;
+  }
+  
+  .register{
+    background-color: transparent;
+    font-weight: bold;
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    height: 48px;
+    width: 159.98px;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  ::placeholder{
+    color: #ffffff98;
+  }
+  
+  .access{
+    font-weight: bold;
+    position: absolute;
+    color: #5bbef5;
+    top: 122.5%;
+    left: 28.5%;
+  }

