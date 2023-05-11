@@ -13,10 +13,3 @@ function showPassword(){
 
 const button = document.getElementById("btn-login");
 
-button.addEventListener("click", function () {
-    
-    
-
-    window.location.href = "exit.html";
-
-});
