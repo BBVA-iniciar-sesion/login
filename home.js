@@ -8,6 +8,6 @@ setTimeout(function() {
     setTimeout(function() {
       window.location.href = 'login.html';
     }, 150);
-  }, 2250);
+  }, 5000);
   
   
